@@ -1,0 +1,54 @@
+	1: reserved word: program
+	1: ID name=yu
+	1: ;
+	2: reserved word: var
+	2: ID name=x
+	2: ,
+	2: ID name=y
+	2: ,
+	2: ID name=z
+	2: ,
+	2: ID name=i
+	2: :
+	2: TYPE, name=integer
+	2: ;
+	3: reserved word: begin
+	4: read
+	4: (
+	4: ID name=x
+	4: )
+	4: ;
+	5: read
+	5: (
+	5: ID name=y
+	5: )
+	5: ;
+	6: Unknown token:for
+	6: ID name=i
+	6: Unknown token::=
+	6: INT, val=1
+	6: to
+	6: INT, val=5
+	6: Unknown token:do
+	7: reserved word: begin
+	8: ID name=x
+	8: Unknown token::=
+	8: ID name=i
+	8: *
+	8: INT, val=2
+	8: ;
+	9: write
+	9: (
+	9: ID name=x
+	9: )
+	9: ;
+	10: reserved word: end
+	10: ;
+	11: reserved word: end
+	11: .
+	12: EOF
+unknown node kind.
+unknown node kind.
+unknown node kind.
+unknown node kind.
+unknown node kind.
